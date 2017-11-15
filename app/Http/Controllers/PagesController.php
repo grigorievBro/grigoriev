@@ -10,4 +10,8 @@ class PagesController extends Controller
     {
         return view('pages.index');
     }
+    public function portfolio()
+    {
+        return view('pages.portfolio');
+    }
 }
