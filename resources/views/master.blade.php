@@ -4,12 +4,10 @@
 @include('include.head')
 
 <body>
+
 @include('include.nav')
-<div class="container">
-
-    @yield('content')
-
-</div>
+     @yield('content')
 @include('include.footer')
+
 </body>
 </html>
